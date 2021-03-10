@@ -1,4 +1,6 @@
-
+body {
+    background-color: #d1d9e1;
+}
 
 .navbar {
     background-color: #262262;
@@ -10,10 +12,15 @@
 }
 
 .nav-link {
-    color: white !important;
+    color: white ;
     margin-right:50px;
 }
-
+#email_nav {
+    color: orange;
+    font-size: 20px;
+    margin-right: 0px;
+    
+}
 
 
 .jumbotron {
@@ -47,9 +54,18 @@ p {
     font-size: 20px;
 }
 
-#approach_cont {
-    max-height: 400px;
+.h1 {
+    font-size: 50px;
 }
+
+
+
+#about_cont, #approach_cont, #proc_cont {
+    padding:0px;
+}
+
+
+
 
 #approach_img, #process_img {
     max-height: 400px;
@@ -87,11 +103,11 @@ p {
 }
 
 footer {
-    height: 200px;
+    height: 150px;
     background-color:#262262;
     color: white;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 .footer_text {
@@ -104,3 +120,65 @@ footer {
     font-size: 15px;
 }
 
+approach_img1 {
+    max-width: 100%;
+}
+
+#approach_img_cont {
+    padding-left: 0;
+}
+
+#grad_img1 {background-image:
+    linear-gradient(to right, transparent, 80%, #262262),
+    url('img/12.jpg');
+    border:0;
+    
+    background-size: cover;    
+    height:500px;
+
+    margin-right: -15px;
+    padding: 0px;
+}
+
+#grad_img2 {background-image:
+    linear-gradient(to left, transparent, 80%,  #262262),
+    url('img/24.JPG');
+    border:0;
+    
+    background-size: cover;    
+    height:500px;
+
+    margin-left: -15px;
+    padding: 0px;
+
+    
+}
+     
+
+#grad_img3 {background-image:
+    linear-gradient(to right, transparent, 80%, #262262),
+    url('img/19.jpeg');
+    border:0;
+    
+    background-size: cover;
+    
+    height:500px;
+
+    margin-right: -15px;
+    padding: 0px;
+
+}
+
+
+
+.text-secondary {
+    color:#002060;
+    
+}
+.card-body {
+    background-color: #262262;
+}
+
+.card-text {
+    line-height: 45px;
+}
