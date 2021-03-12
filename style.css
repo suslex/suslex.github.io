@@ -121,7 +121,7 @@ html {
   
   #grad_img1 {background-image:
       linear-gradient(to right, transparent, 80%, #262262),
-      url('img/12.jpg');
+      url('img/12.JPG');
       border:0;    
       background-size: cover;    
       height:500px;

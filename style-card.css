@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+.container {
+  
+  justify-items: center;
+   margin-top: 8%;
+  /* margin-left: 15%; */
+  /* margin-left: 10%; */
+  align-items: center;
+}
+.card:hover {
+    /* -webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75); */
+    background: linear-gradient(45deg,transparent,silver);
+    /* background: linear-gradient(45deg,transparent,#e58922,#262262); */
+    box-shadow: none;
+}
+.card-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+    
+}
+h5 {
+  color: #262262;
+  font-weight: bold;
+}
+.card-text, .card-title {
+    font-family: 'Roboto', sans-serif;
+    
+}
+.line-0 {
+    margin-top: 40px;
+    width: 100%;
+}
+#carouselExampleControls {
+    margin-top: 5%;
+    margin-left: 25%;
+    align-items: center;
+}
+.card-img-top {
+    /* width: 55%;
+    height: 35%; */
+    width: 15%;
+    height: 15%;
+    display: block;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    border-radius: 50%;
+}
+#testimonial {
+    font-style: italic;
+    font-weight: bold;
+    float:left;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color:#262262;
+}
+/* .carousel-control-prev-icon {
+  margin-left: 5%;
+  color: black;
+} */
+
+/* contact form styles */
+.contact-form {
+    border-radius: 5px;
+    /* background-color: #f2f2f2; */
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  /* Style inputs for contact-form */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  input[type=email] {
+    width: 75.7%;
+    height: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 16px;
+  }
+ 
+  input[type=submit] {
+    background-color: #262262;
+    color: white;
+    border-radius: 5px;
+    padding: 11px 80px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: darkgray;
+  }
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  footer {
+    text-align: center;
+    padding: 3px;
+    color: #262262;
+  }
